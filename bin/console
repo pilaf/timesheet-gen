@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require_relative '../lib/timesheet-gen'
+require 'irb'
+
+IRB.start
+
+# vim:filetype=ruby

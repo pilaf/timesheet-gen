@@ -1,0 +1,96 @@
+harvest:
+  # See https://id.getharvest.com/developers
+  account_id: 111111
+  token:      YOUR_HARVEST_PERSONAL_ACCESS_TOKEN
+
+holidays:
+  # Sourced from Google Calendar
+  calendar:   en.japanese
+
+export:
+  xlsx:
+    folder:   ~/timesheets/%{Y}
+    filename: "%{Y}-${M} Timesheet.xlsx"
+
+# Holiday calendars
+#en.australian#holiday@group.v.calendar.google.com
+#en.austrian#holiday@group.v.calendar.google.com
+#en.brazilian#holiday@group.v.calendar.google.com
+#en.canadian#holiday@group.v.calendar.google.com
+#en.china#holiday@group.v.calendar.google.com
+#en.christian#holiday@group.v.calendar.google.com
+#en.danish#holiday@group.v.calendar.google.com
+#en.dutch#holiday@group.v.calendar.google.com
+#en.finnish#holiday@group.v.calendar.google.com
+#en.french#holiday@group.v.calendar.google.com
+#en.german#holiday@group.v.calendar.google.com
+#en.greek#holiday@group.v.calendar.google.com
+#en.hong_kong_c#holiday@group.v.calendar.google.com
+#en.hong_kong#holiday@group.v.calendar.google.com
+#en.indian#holiday@group.v.calendar.google.com
+#en.indonesian#holiday@group.v.calendar.google.com
+#en.iranian#holiday@group.v.calendar.google.com
+#en.irish#holiday@group.v.calendar.google.com
+#en.islamic#holiday@group.v.calendar.google.com
+#en.italian#holiday@group.v.calendar.google.com
+#en.japanese#holiday@group.v.calendar.google.com
+#en.jewish#holiday@group.v.calendar.google.com
+#en.malaysia#holiday@group.v.calendar.google.com
+#en.mexican#holiday@group.v.calendar.google.com
+#en.new_zealand#holiday@group.v.calendar.google.com
+#en.norwegian#holiday@group.v.calendar.google.com
+#en.philippines#holiday@group.v.calendar.google.com
+#en.polish#holiday@group.v.calendar.google.com
+#en.portuguese#holiday@group.v.calendar.google.com
+#en.russian#holiday@group.v.calendar.google.com
+#en.singapore#holiday@group.v.calendar.google.com
+#en.sa#holiday@group.v.calendar.google.com
+#en.south_korea#holiday@group.v.calendar.google.com
+#en.spain#holiday@group.v.calendar.google.com
+#en.swedish#holiday@group.v.calendar.google.com
+#en.taiwan#holiday@group.v.calendar.google.com
+#en.thai#holiday@group.v.calendar.google.com
+#en.uk#holiday@group.v.calendar.google.com
+#en.usa#holiday@group.v.calendar.google.com
+#en.vietnamese#holiday@group.v.calendar.google.com
+#ja.irish#holiday@group.v.calendar.google.com
+#ja.usa#holiday@group.v.calendar.google.com
+#ja.uk#holiday@group.v.calendar.google.com
+#ja.islamic#holiday@group.v.calendar.google.com
+#ja.italian#holiday@group.v.calendar.google.com
+#ja.indian#holiday@group.v.calendar.google.com
+#ja.indonesian#holiday@group.v.calendar.google.com
+#ja.dutch#holiday@group.v.calendar.google.com
+#ja.australian#holiday@group.v.calendar.google.com
+#ja.austrian#holiday@group.v.calendar.google.com
+#ja.canadian#holiday@group.v.calendar.google.com
+#ja.christian#holiday@group.v.calendar.google.com
+#ja.greek#holiday@group.v.calendar.google.com
+#ja.singapore#holiday@group.v.calendar.google.com
+#ja.swedish#holiday@group.v.calendar.google.com
+#ja.spain#holiday@group.v.calendar.google.com
+#ja.thai#holiday@group.v.calendar.google.com
+#ja.danish#holiday@group.v.calendar.google.com
+#ja.german#holiday@group.v.calendar.google.com
+#ja.new_zealand#holiday@group.v.calendar.google.com
+#ja.norwegian#holiday@group.v.calendar.google.com
+#ja.philippines#holiday@group.v.calendar.google.com
+#ja.finnish#holiday@group.v.calendar.google.com
+#ja.french#holiday@group.v.calendar.google.com
+#ja.brazilian#holiday@group.v.calendar.google.com
+#ja.vietnamese#holiday@group.v.calendar.google.com
+#ja.portuguese#holiday@group.v.calendar.google.com
+#ja.polish#holiday@group.v.calendar.google.com
+#ja.malaysia#holiday@group.v.calendar.google.com
+#ja.mexican#holiday@group.v.calendar.google.com
+#ja.jewish#holiday@group.v.calendar.google.com
+#ja.russian#holiday@group.v.calendar.google.com
+#ja.china#holiday@group.v.calendar.google.com
+#ja.south_korea#holiday@group.v.calendar.google.com
+#ja.sa#holiday@group.v.calendar.google.com
+#ja.taiwan#holiday@group.v.calendar.google.com
+#ja.japanese#holiday@group.v.calendar.google.com
+#ja.hong_kong_c#holiday@group.v.calendar.google.com
+#ja.hong_kong#holiday@group.v.calendar.google.com
+
+# vim:filetype=yaml
