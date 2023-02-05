@@ -1,6 +1,6 @@
 harvest:
   # See https://id.getharvest.com/developers
-  account_id: 111111
+  id:         111111
   token:      YOUR_HARVEST_PERSONAL_ACCESS_TOKEN
 
 holidays:
